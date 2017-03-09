@@ -44,7 +44,6 @@
 			font-size: 30px;
 		}
 
-
 		.powered-by {
 			display: flex;
 			flex-direction: column;
