@@ -1,6 +1,6 @@
 # Customise LiteSpeed error pages
 
-### Apache / cPanel
+## Apache / cPanel / LiteSpeed
 **Create new error folder**
 ```
 mkdir /usr/local/apache/htdocs_error
@@ -21,9 +21,7 @@ To customise the pages fork this repository and make changes and follow steps ab
 
 **Including Error Pages**
 
-Add the following to your `pre_virtualhost_global.conf`
-
-On cPanel this can be found at `WHM >> Service Configuration >> Apache Configuration >> Include Editor >> Pre VirtualHost Include >> All Versions`
+Add the following to your `/usr/local/apache/conf/includes/pre_virtualhost_global.conf`
 ```
 Alias /htdocs_error /usr/local/apache/htdocs_error/
 ErrorDocument 400 /htdocs_error/400.shtml
@@ -47,8 +45,18 @@ ErrorDocument 505 /htdocs_error/505.shtml
 ErrorDocument 508 /htdocs_error/508.shtml
 ErrorDocument 509 /htdocs_error/509.shtml
 ```
+On cPanel this can be also found at `WHM >> Service Configuration >> Apache Configuration >> Include Editor >> Pre VirtualHost Include >> All Versions` 
 
-### Preview Error Page
+
+
+**Restart LiteSpeed / Apache**
+
+
+-------------------------------------
+
+
+
+## Preview Error Page
 
 Create `.htaccess` file, replace `***ERROR CODE***` with for example 403
 
