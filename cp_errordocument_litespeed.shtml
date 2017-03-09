@@ -88,8 +88,6 @@
 			
 			<p><!--#echo var="msg" --></p>
 
-			<div>
-
 		</div>
 	</div>
 
