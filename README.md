@@ -43,7 +43,6 @@ ErrorDocument 501 /htdocs_error/501.shtml
 ErrorDocument 503 /htdocs_error/503.shtml
 ErrorDocument 505 /htdocs_error/505.shtml
 ErrorDocument 508 /htdocs_error/508.shtml
-ErrorDocument 509 /htdocs_error/509.shtml
 ```
 On cPanel this can be also found at `WHM >> Service Configuration >> Apache Configuration >> Include Editor >> Pre VirtualHost Include >> All Versions` 
 

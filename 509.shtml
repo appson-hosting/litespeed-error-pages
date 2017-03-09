@@ -1,4 +1,0 @@
-<!--#set var="code" value="509" -->
-<!--#set var="reason" value="Bandwidth Limit Exceeded" -->
-<!--#set var="msg" value="The server is temporarily unable to service your request due to bandwidth limit has been reached for this site. Please try again later." -->
-<!--#include virtual="cp_errordocument.shtml" -->
