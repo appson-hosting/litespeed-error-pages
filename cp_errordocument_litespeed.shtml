@@ -1,70 +1,81 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-<title><!--#echo var="code" --> <!--#echo var="reason" --></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title><!--#echo var="code" --> <!--#echo var="reason" --></title>
+
+	<style>
+		html {
+			 height: 100%;
+			 margin: 0;
+		}
+
+		body {
+			color: #444;
+			margin: 0;
+			font: normal 14px/20px Arial, Helvetica, sans-serif;
+			height: 100%;
+			background-color: #fff;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+		}
+
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 150px;
+			line-height: 150px;
+			font-weight: bold;
+		}
+
+		h2 {
+			margin-top: 20px;
+			font-size: 30px;
+		}
 
 
-<style>
-html {
-	 height: 100%
-	 margin: 0;
-}
-body {
-	color: #444; 
-	margin: 0;
-	font: normal 14px/20px Arial, Helvetica, sans-serif;
-	height: 100%; 
-	background-color: #fff;
-}
+		.powered-by {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			color: #f0f0f0;
+			font-size: 12px;
+			padding: 0px 30px 0px 30px;
+			height: 100px;
+			background-color: #474747;
+			border-top: 1px solid rgba(0,0,0,0.15);
+			box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+		}
 
-.container {
-	height: auto; 
-	min-height: 100%; 
-}
+		.powered-by p {
+		    margin: 0.4em 0;
+		}
 
-.content {
-	position: absolute; 
-	text-align: center; 
-	width: 100%; 
-	max-width: 800px; 
-	top: 50%; 
-	left:50%;
-	transform: translate(-50%, -50%);
-}
+		@media (max-height:500px)  {
+			.powered-by p {
+				font-size: 10px;
+				line-height: 12px;
+			}
+		}
 
-h1 {
-	margin: 0; 
-	font-size: 150px; 
-	line-height: 150px; 
-	font-weight: bold;
-}
-
-h2 {
-	margin-top: 20px;
-	font-size: 30px;
-}
-
-.powered-by {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	color: #f0f0f0; 
-	font-size: 12px;
-	padding: 0px 30px 0px 30px;
-	height: 100px;
-	margin-top: -101px;
-	background-color: #474747;
-	border-top: 1px solid rgba(0,0,0,0.15);
-	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-}
-
-</style>
+		@media (max-width:481px)  {
+			.powered-by p {
+				font-size: 10px;
+				line-height: 12px;
+			}
+		}
+	</style>
 
 
 </head>
@@ -83,7 +94,7 @@ h2 {
 	</div>
 
 	<div class="powered-by">
-		<p>Proudly powered by  <a style="color:#fff;" href="http://www.litespeedtech.com/error-page">LiteSpeed Web Server</a></p>
+		<p>Proudly powered by  <a style="color:#fff;" href="http://www.litespeedtech.com/error-page" target="_blank">LiteSpeed Web Server</a></p>
 		<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p>
 	</div>
 
