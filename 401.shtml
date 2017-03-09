@@ -1,0 +1,4 @@
+<!--#set var="code" value="401" -->
+<!--#set var="reason" value="Unauthorized" -->
+<!--#set var="msg" value="Proper authorization is required to access this resource!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

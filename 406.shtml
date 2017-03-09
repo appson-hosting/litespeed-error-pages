@@ -1,0 +1,4 @@
+<!--#set var="code" value="406" -->
+<!--#set var="reason" value="Not Acceptable" -->
+<!--#set var="msg" value="This request is not acceptable!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

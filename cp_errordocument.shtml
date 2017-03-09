@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><!--#echo var="code" --> <!--#echo var="reason" --></title>
+
+
+<style>
+html {
+	 height: 100%
+	 margin: 0;
+}
+body {
+	color: #444; 
+	margin: 0;
+	font: normal 14px/20px Arial, Helvetica, sans-serif;
+	height: 100%; 
+	background-color: #fff;
+}
+
+.container {
+	height: auto; 
+	min-height: 100%; 
+}
+
+.content {
+	position: absolute; 
+	text-align: center; 
+	width: 100%; 
+	max-width: 800px; 
+	top: 50%; 
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+	margin: 0; 
+	font-size: 150px; 
+	line-height: 150px; 
+	font-weight: bold;
+}
+
+h2 {
+	margin-top: 20px;
+	font-size: 30px;
+}
+</style>
+
+
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+
+		    <h1><!--#echo var="code" --></h1>
+			<h2><!--#echo var="reason" --></h2>
+			
+			<p><!--#echo var="msg" --></p>
+
+			<div>
+
+		</div>
+	</div>
+</body>
+</html>

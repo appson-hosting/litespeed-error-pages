@@ -1,0 +1,4 @@
+<!--#set var="code" value="403" -->
+<!--#set var="reason" value="Forbidden" -->
+<!--#set var="msg" value="Access to this resource on the server is denied!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

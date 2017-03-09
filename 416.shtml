@@ -1,0 +1,4 @@
+<!--#set var="code" value="416" -->
+<!--#set var="reason" value="Requested range not satisfiable" -->
+<!--#set var="msg" value="None of the range specified overlap the current extent of the selected resource!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

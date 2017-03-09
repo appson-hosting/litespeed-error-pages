@@ -1,0 +1,4 @@
+<!--#set var="code" value="501" -->
+<!--#set var="reason" value="Not Implemented" -->
+<!--#set var="msg" value="The requested method is not implemented by the server!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

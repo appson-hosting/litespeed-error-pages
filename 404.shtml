@@ -1,0 +1,4 @@
+<!--#set var="code" value="404" -->
+<!--#set var="reason" value="Not Found" -->
+<!--#set var="msg" value="The resource requested could not be found on this server!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

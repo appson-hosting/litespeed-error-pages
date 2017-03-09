@@ -1,0 +1,4 @@
+<!--#set var="code" value="415" -->
+<!--#set var="reason" value="Unsupported Media Type" -->
+<!--#set var="msg" value="HTTPS is not configured for this web site!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

@@ -1,0 +1,4 @@
+<!--#set var="code" value="505" -->
+<!--#set var="reason" value="HTTP Version not supported" -->
+<!--#set var="msg" value="Only HTTP/1.0, HTTP/1.1 is supported!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

@@ -1,0 +1,4 @@
+<!--#set var="code" value="422" -->
+<!--#set var="reason" value="Unprocessable Entity" -->
+<!--#set var="msg" value="Resouce is not cached!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

@@ -1,0 +1,4 @@
+<!--#set var="code" value="508" -->
+<!--#set var="reason" value="Insufficient Resource" -->
+<!--#set var="msg" value="The website is temporarily unable to service your request as it exceeded resource limit. Please try again later." -->
+<!--#include virtual="cp_errordocument.shtml" -->

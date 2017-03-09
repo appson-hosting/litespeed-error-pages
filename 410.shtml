@@ -1,0 +1,4 @@
+<!--#set var="code" value="410" -->
+<!--#set var="reason" value="Gone" -->
+<!--#set var="msg" value="The requested resource is no longer available at the server and no forwarding address is known!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

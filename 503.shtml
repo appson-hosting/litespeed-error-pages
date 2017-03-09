@@ -1,0 +1,4 @@
+<!--#set var="code" value="503" -->
+<!--#set var="reason" value="Service Unavailable" -->
+<!--#set var="msg" value="The server is temporarily busy, try again later!" -->
+<!--#include virtual="cp_errordocument.shtml" -->

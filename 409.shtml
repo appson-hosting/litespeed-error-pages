@@ -1,0 +1,4 @@
+<!--#set var="code" value="409" -->
+<!--#set var="reason" value="Conflict" -->
+<!--#set var="msg" value="The request could not be completed due to a conflict with the current state of the resource!" -->
+<!--#include virtual="cp_errordocument.shtml" -->
